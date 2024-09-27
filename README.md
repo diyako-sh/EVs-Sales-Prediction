@@ -1,4 +1,4 @@
-![Uploading image.png…]()
+<img width="181" alt="image" src="https://github.com/user-attachments/assets/6c47fb71-ac0a-4b30-83fe-7d9de922027b">
 
 
 # EVs-Sales-Prediction
