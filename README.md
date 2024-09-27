@@ -25,3 +25,8 @@
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
+
+
+<!-- ABOUT THE PROJECT -->
+## About The Project
+Electric vehicles (EVs) have been introduced as an alternative to gasoline and diesel cars to reduce greenhouse gas emissions, optimize fossil fuel use, and protect the environment. Predicting EV sales is momentous for stakeholders, including car manufacturers, policymakers, and fuel suppliers. 
