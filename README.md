@@ -4,9 +4,10 @@
 <details>
   <summary>Table of Contents</summary>
   <ol>
-    <li><a href="#Data Collectors">Data Collectors</a></li>
-    <li><a href="#Modeling">Modeling</a></li>
-    <li><a href="#Results Evaluation">Results Evaluation</a></li>
+    <li><a href="#about-the-project">About The Project</a></li>
+    <li><a href="#data-collectors">Data Collectors</a></li>
+    <li><a href="#modeling">Modeling</a></li>
+    <li><a href="#results-evaluation">Results Evaluation</a></li>
   </ol>
 </details>
 
@@ -19,6 +20,10 @@ Electric vehicles (EVs) have been introduced as an alternative to gasoline and d
 
 <!-- DATA COLLECTORS -->
 ## Data Collectors
+data
+
+<!-- DATA COLLECTORS -->
+## Modeling
 data
 
 <!-- RESULTS EVALUATION -->
