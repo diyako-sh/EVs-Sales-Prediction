@@ -4,9 +4,9 @@
 <details>
   <summary>Table of Contents</summary>
   <ol>
-    <li><a href="#Data Collectors">Usage</a></li>
-    <li><a href="#Modeling">Roadmap</a></li>
-    <li><a href="#Results Evaluation">Contributing</a></li>
+    <li><a href="#Data Collectors">Data Collectors</a></li>
+    <li><a href="#Modeling">Modeling</a></li>
+    <li><a href="#Results Evaluation">Results Evaluation</a></li>
   </ol>
 </details>
 
