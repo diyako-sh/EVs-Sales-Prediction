@@ -45,4 +45,3 @@ To further analyze the model's results, several methods are used:
 - The Kendall's correlation 
 - The sensitivity analysis 
 
-### For more details read my [article](https://www.nature.com/articles/s41598-023-35366-3).
