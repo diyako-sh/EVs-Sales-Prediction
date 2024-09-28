@@ -1,7 +1,7 @@
 <img width="181" alt="image" src="https://github.com/user-attachments/assets/6c47fb71-ac0a-4b30-83fe-7d9de922027b">
 
 
-# Using machine learning methods to predict electric vehicle penetration in the automotive market:
+# Using machine learning methods to predict electric vehicle penetration in the automotive market
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
@@ -25,7 +25,7 @@ The primary dataset contains monthly information about 357 vehicles, such as bra
 - The economic_data_collector.py file extracts economic indicators such as Gross Domestic Product (GDP), Available Personal Income, Consumer Price Index, Interest Rate, Unemployment Rate, Industrial Investment Demand, Petroleum Charge, Private Consumption, and Latent Replacement Demand from the Federal Reserve Economic Data website.
 - The google_trends_mm_collector.py file extracts Google trends data for a specified keyword ("Make" + "Model"). The keyword has been selected for Google trend data to evaluate the number of searches for each car from 2014 to 2020 and for the United States of America.
 - The news_collector_wesite1.py file extracts daily news published from 2014 to 2020 on the [Automotive](https://www.autonews.com/) News website.
-- The vehicle_specification_collector.py file extracts vehicle specification data from the [Thecarconnection](https://www.thecarconnection.com/)website.
+- The vehicle_specification_collector.py file extracts vehicle specification data from the [Thecarconnection](https://www.thecarconnection.com/) website.
 
 <!-- DATA COLLECTORS -->
 ## Modeling
