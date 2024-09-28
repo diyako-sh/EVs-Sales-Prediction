@@ -34,7 +34,7 @@ The proposed model, Hybrid LSTM with two-dimensional Attention and Residual netw
 - Transforming 2-D time series data into 3-D tensors
 - Dropout layers
 - Early stopping tools
-- AutoML Tuners (tune the number of hidden layers, neurons in these layers, and the dropout rate)
+- AutoML Tuners 
 
 <!-- RESULTS EVALUATION -->
 ## [Results Evaluation](https://github.com/diyako-sh/EVs-Sales-Prediction/tree/main/results_evaluation)
