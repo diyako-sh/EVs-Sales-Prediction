@@ -44,5 +44,5 @@ To further analyze the model's results, several methods are used:
 - NRMSE_range
 - NRMSE_mean
 - The Kendall's correlation 
-- The sensitivity analysis 
+- Sensitivity analysis 
 
