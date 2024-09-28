@@ -13,6 +13,25 @@ import os
 
 
 def gas_veh_spec(make, model, year, spec_df_final):
+    """
+    gas_veh_spec extracts specification data for gasoline vehicles
+
+    Parameters
+    ----------
+    make : str
+        make of the vehicle
+    model : str
+        model of the vehicle
+    year : str
+        year
+    spec_df_final : dataframe
+        the dataframe containing vehicles' specifications.
+
+    Returns
+    -------
+    spec_df_final: dataframe
+        the updated input dataframe
+    """
     # set driver
     driver = webdriver.Chrome(executable_path=r"PATH_TO_chromedriver.exe")
     driver.get(r"https://www.thecarconnection.com/specifications")
@@ -654,6 +673,25 @@ def gas_veh_spec(make, model, year, spec_df_final):
 
 
 def elc_veh_spec(make, model, year, spec_df_final):
+    """
+    elc_veh_spec extracts specification data for EVs
+
+    Parameters
+    ----------
+    make : str
+        make of the vehicle
+    model : str
+        model of the vehicle
+    year : str
+        year
+    spec_df_final : dataframe
+        the dataframe containing vehicles' specifications.
+
+    Returns
+    -------
+    spec_df_final: dataframe
+        the updated input dataframe
+    """
     # set driver
     driver = webdriver.Chrome(executable_path=r"PATH_TO_chromedriver.exe")
     driver.get(r"https://www.thecarconnection.com/specifications")
