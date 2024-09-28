@@ -89,7 +89,7 @@ def selecct_color(count):
             k=count))
 
 
-################################ Run: section1 for make_moel trends ######
+##################### Run: section1 for make_moel trends #################
 if __name__ == "__main__":
     # set workspace
     workspace = os.path.dirname(
