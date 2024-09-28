@@ -1,9 +1,8 @@
 <img width="181" alt="image" src="https://github.com/user-attachments/assets/6c47fb71-ac0a-4b30-83fe-7d9de922027b">
 
 
-# Using machine learning methods to predict electric vehicle penetration in the automotive market
-
-# https://www.nature.com/articles/s41598-023-35366-3
+# Using machine learning methods to predict electric vehicle penetration in the automotive market:
+## https://www.nature.com/articles/s41598-023-35366-3
 
 <!-- TABLE OF CONTENTS -->
 <details>
