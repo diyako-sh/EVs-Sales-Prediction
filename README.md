@@ -24,7 +24,7 @@ Electric vehicles (EVs) have been introduced as an alternative to gasoline and d
 The primary dataset contains monthly information about 357 vehicles, such as brand (or "make" in auto industry lingo, e.g., Benz), model, segmentation, category, shoppers, and sales of different types of cars in the United States from 2014 to 2020. Other information has been extracted based on the vehicles in this dataset:
 - The economic_data_collector.py file extracts economic indicators such as Gross Domestic Product (GDP), Available Personal Income, Consumer Price Index, Interest Rate, Unemployment Rate, Industrial Investment Demand, Petroleum Charge, Private Consumption, and Latent Replacement Demand from the Federal Reserve Economic Data website.
 - The google_trends_mm_collector.py file extracts Google trends data for a specified keyword ("Make" + "Model"). The keyword has been selected for Google trend data to evaluate the number of searches for each car from 2014 to 2020 and for the United States of America.
-- The news_collector_wesite1.py file extracts daily news published from 2014 to 2020 on the [Automotive](https://www.autonews.com/) News website.
+- The news_collector_wesite1.py file extracts daily news published from 2014 to 2020 on the [Automotive News](https://www.autonews.com/) website.
 - The vehicle_specification_collector.py file extracts vehicle specification data from the [Thecarconnection](https://www.thecarconnection.com/) website.
 
 <!-- DATA COLLECTORS -->
