@@ -3,8 +3,7 @@
 
 # Using machine learning methods to predict electric vehicle penetration in the automotive market
 
-### https://www.nature.com/articles/s41598-023-35366-3
-
+# https://www.nature.com/articles/s41598-023-35366-3
 
 <!-- TABLE OF CONTENTS -->
 <details>
