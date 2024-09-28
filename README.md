@@ -29,8 +29,20 @@ The primary dataset contains monthly information about 357 vehicles, such as bra
 
 <!-- DATA COLLECTORS -->
 ## Modeling
-data
+
+The proposed model, Hybrid LSTM with two-dimensional Attention and Residual network, is created using several ML tools to improve the model's training and the modeling process, such as:
+- Transforming 2-D time series data into 3-D tensors
+- Dropout layers
+- Early stopping tools
+- AutoML Tuners (tune the number of hidden layers, neurons in these layers, and the dropout rate)
 
 <!-- RESULTS EVALUATION -->
 ## Results Evaluation
-results
+To further analyze the model's results, several methods are used: 
+- MAPE
+- NRMSE_range
+- NRMSE_mean
+- The Kendall's correlation 
+- The sensitivity analysis 
+
+### For more details read my [article](https://www.nature.com/articles/s41598-023-35366-3).
