@@ -27,14 +27,15 @@ The primary dataset contains monthly information about 357 vehicles, such as bra
 - The news_collector_wesite1.py file extracts daily news published for each vehicle from 2014 to 2020 on the [Automotive News](https://www.autonews.com/) website.
 - The vehicle_specification_collector.py file extracts vehicle specification data from the [Thecarconnection](https://www.thecarconnection.com/) website.
 
-<!-- DATA COLLECTORS -->
+<!-- MODELING -->
 ## [Modeling](https://github.com/diyako-sh/EVs-Sales-Prediction/tree/main/modeling)
 
 The proposed model, Hybrid LSTM with two-dimensional Attention and Residual network, is created using several ML tools to improve the model's training and the modeling process, such as:
 - Transforming 2-D time series data into 3-D tensors
 - Dropout layers
 - Early stopping tools
-- AutoML Tuners 
+- AutoML Tuners
+- Cross-validation
 
 <!-- RESULTS EVALUATION -->
 ## [Results Evaluation](https://github.com/diyako-sh/EVs-Sales-Prediction/tree/main/results_evaluation)
