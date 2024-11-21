@@ -14,6 +14,7 @@ from keras.layers import *
 from keras.models import *
 from keras import backend as K
 from matplotlib import pyplot
+from custom_funcs import attention
 pyplot.style.use('dark_background')
 ################################ Functions #################################
 
@@ -105,48 +106,6 @@ def normalizer_func(data, trainsplit):
     temp_out[:, 0] = temp[:, 0] / mx_sale
     return temp_out, temp_mean, temp_std, mx_sale
 
-
-# Add attention layer to the deep learning network
-class attention(Layer):
-    """
-    attention -> creating an attention layer used in deep learning networkss
-
-    """
-
-    def __init__(self, **kwargs):
-        super(attention, self).__init__(**kwargs)
-
-    def build(self, input_shape):
-        # define trainable weight
-        w_init = tf.random_normal_initializer()
-        self.W = tf.Variable(
-            initial_value=w_init(
-                shape=(
-                    input_shape[1],
-                    input_shape[2]),
-                dtype="float32"),
-            trainable=True,
-        )
-        # define trainable bias
-        b_init = tf.zeros_initializer()
-        self.b = tf.Variable(
-            initial_value=b_init(
-                shape=(
-                    input_shape[1],
-                    input_shape[2]),
-                dtype="float32"),
-            trainable=True,
-        )
-        super(attention, self).build(input_shape)
-
-    def call(self, x):
-        # alignment scores-> pass them through the tanh function
-        e = K.tanh((x * self.W) + self.b)
-        # compute the weights
-        alpha = K.softmax(e)
-        # compute the context vector
-        context = alpha
-        return context
 
 
 def hybrid_res_att_lstm_model(
